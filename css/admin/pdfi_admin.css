@@ -1,0 +1,28 @@
+.pdfi_meta_wrapper .group-fields {
+	position:relative;
+	margin: .50em 0;
+}
+.pdfi_meta_wrapper .group-fields:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.pdfi_meta_wrapper .group-fields .one-half {
+	width:49%;
+	padding:0 .5%;
+	float:left;
+}
+.pdfi_meta_wrapper .group-fields .full {
+	padding:0 .5%;
+}
+.pdfi_meta_wrapper .group-fields textarea,
+.pdfi_meta_wrapper .group-fields input,
+.pdfi_meta_wrapper .group-fields label {
+	width:100%;
+	display:block;
+}
+.pdfi_meta_wrapper .group-fields label {
+	padding:10px 0;
+}
+
+.pdfi-table input.small { width:12.3em; }
